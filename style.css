@@ -80,14 +80,14 @@ nav ul {
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 960px;
-  margin: 8px auto 8px auto;
+  margin: 5% 5% 5% 1%;
   list-style: none;
 }
 
 nav li {
   width: 96px;
-  margin: 8px;
-  text-align: center;
+  margin: 6px;
+  text-align: 5% 5% 5% 1%;
 }
 
 nav a {
@@ -107,41 +107,36 @@ nav a:hover {
 /* スマホ用イベント画像のスタイル*/
 @media screen and (max-width: 960px) {
   #main-event img {
-    width: 90%;
+    width: 80%;
   }
 }
 
 /* テーマロゴの画像のスタイル指定 */
-.theme_logo {
-  margin: 0 auto 0 auto;
-}
-
-/* スマホ用テーマロゴの画像のデザイン指定 */
-@media screen and (max-width: 960px) {
-  .theme_logo img {
-    width: 100%;
+  .theme_logo {
+   width: 50%;
+  }
+/* スマホ用のテーマロゴのスタイル指定 */
+  @media screen and (max-width: 960px) {
+  .theme_logo {
+   width: 80%;
   }
 }
+
 /* メインのお知らせの指定 */
 #main-news {
   margin: 80px auto 80px auto;
 }
 #main-news h3 {
-  margin: 32px auto 4px auto;
-}
-.twitter-timeline {
-  margin: 0 auto 0 auto;
+  margin:  32px auto 4px auto;
 }
 
 /* スマホ用お知らせのスタイル*/
 @media screen and (max-width: 960px) {
-  .twitter-timeline {
-    width: 100%;
-  }
   .calendar_news iframe {
-    width: 100%;
+    width: 100% ;
   }
 }
+
 /* メインのコンセプトの指定 */
 #main-concept {
   margin: 80px auto 80px auto;
@@ -166,15 +161,16 @@ nav a:hover {
   width: 320px;
   border-radius: 32px;
 }
+
 .concept_category p {
   margin: 80px auto 0 auto;
   padding: 32px;
   width: 320px;
   line-height: 32px;
   font-size: 18px;
-  background-color: #fff0f5;
+  background-color: #fff1cf;
   border: dashed 2px #773d50;
-  color: #6f4c5b;
+  color: #845b6d;
 }
 
 /* スマホ用コンセプトのスタイル*/
@@ -214,6 +210,7 @@ nav a:hover {
 .menu_category ul {
   text-align: center;
   list-style: none;
+  margin: 10% 20% 10% 11%;
 }
 
 /* スマホ用メニューのスタイル*/
@@ -222,6 +219,7 @@ nav a:hover {
     width: 100%;
   }
 }
+
 /* スマホ用アクセスのスタイル*/
 @media screen and (max-width: 960px) {
   .access_map iframe {
@@ -229,7 +227,48 @@ nav a:hover {
   }
 }
 
+/* メインのテイクアウトの指定 */
+#main-takeout{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#main-takeout img{
+  margin: 0 auto 0 auto;
+}
+
+#main-takeout h2{
+  width: 100%;
+}
+
+.takeout_category {
+  width: 50%;
+  margin: 0 auto 32px auto;
+}
+
+.takeout_category img{
+  width: 300px;
+  height: auto;
+}
+
+.takeout_category ul{
+  text-align: center;
+  list-style: none;
+  margin: 10% 20% 10% 11%;
+}
+
+/* スマホ用テイクアウトのスタイル*/
+@media screen and (max-width: 960px) {
+  .takeout_category {
+    width: 100%;
+  }
+}
+
+
+
 /* フッターの指定 */
 footer {
   text-align: center;
 }
+
+
