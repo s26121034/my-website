@@ -163,7 +163,7 @@ nav a:hover {
 }
 
 .concept_category p {
-  margin: 80px auto 0 auto;
+  margin: 10% 20% 10% 10%;
   padding: 32px;
   width: 320px;
   line-height: 32px;
@@ -180,7 +180,7 @@ nav a:hover {
   }
 
   .concept_category p {
-    margin: 0 auto 32px auto;
+    margin: 10% 20% 10% 1%;
   }
 }
 /* メインのメニューの指定 */
@@ -203,7 +203,7 @@ nav a:hover {
 }
 
 .menu_category img {
-  width: 320px;
+  width: 400px;
   height: 240px;
 }
 
@@ -216,13 +216,6 @@ nav a:hover {
 /* スマホ用メニューのスタイル*/
 @media screen and (max-width: 960px) {
   .menu_category {
-    width: 100%;
-  }
-}
-
-/* スマホ用アクセスのスタイル*/
-@media screen and (max-width: 960px) {
-  .access_map iframe {
     width: 100%;
   }
 }
@@ -264,7 +257,12 @@ nav a:hover {
   }
 }
 
-
+/* スマホ用アクセスのスタイル*/
+@media screen and (max-width: 960px) {
+  .access_map iframe {
+    width: 100%;
+  }
+}
 
 /* フッターの指定 */
 footer {
